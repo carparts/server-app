@@ -4,6 +4,7 @@
   "description": "car parts server app",
   "main": "main/app.js",
   "scripts": {
+    "start" : "main/app.js",
     "test": "node test/test.js"
   }
 }

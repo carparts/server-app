@@ -1,3 +1,5 @@
 language: node_js
 node_js:
-- node #latest stable Node.js release (6.6.0)
+- node #latest stable Node.js release (6.6.0). We will stick to specific version once more js-package involved into development
+# Start use npm shrink-wrap to control Dependencies
+# https://docs.npmjs.com/cli/shrinkwrap
