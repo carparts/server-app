@@ -4,7 +4,10 @@
   "description": "car parts server app",
   "main": "main/app.js",
   "scripts": {
-    "start" : "node main/app.js",
+    "start": "node main/app.js",
     "test": "node test/test.js"
+  },
+  "dependencies": {
+    "express": "4.14.0"
   }
 }
