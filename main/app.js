@@ -9,7 +9,7 @@ server.get('/', (request, response) => {
 });
 
 
-server.listen(port, (err) => {
+server.listen(process.env.PORT || port, (err) => {
     if (err) {
         return console.log('something bad happened', err)
     }
